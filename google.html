@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            
+            
+        }
+        .navbar {
+            display: flex;
+            
+            
+        }
+        .nav-left{
+            margin: 5px;
+            margin-left: 4px;
+            
+        }
+        .nav-right{
+            justify-content: space-around;
+            margin: 5px;
+            margin-left: 970px;
+            text-align: center;
+        }
+        .navbar a{
+            text-decoration: none;
+            padding: 7px;
+            color: #000;
+            font-size: 18px;
+        }
+        .navbar a:hover{
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .google {
+            margin-top: 20px;
+            
+        }
+        .search{
+            width: 700px;
+            height: 40px;
+            border: 2px solid black;
+            border-radius: 25px;
+            padding: 4px;
+            text-align: center;
+            margin-left: 300px;
+            
+        
+            
+        }
+
+         .search-bar{
+            
+            border: 1px solid white; 
+            width: 610px;
+            height: 15px;
+            padding-top: 11px;
+            margin-left: 165px;
+            color: whitesmoke;
+            margin-left: 20px;
+            padding-bottom: 8px;
+            font-size: 20px;
+            
+            
+            
+        } 
+        .search i{
+            margin-top: 4px;
+            margin-left: 3px;
+            font-size: 20px;
+        }
+        
+        .google-search{
+           text-align: center;
+           align-items: center;
+           margin-top: 40px;
+           margin-left: 40px;
+           
+        }
+        .google-search span{
+            display: inline-block;
+            justify-content: center;
+            font-size: 15px;
+            padding-top: 6px;
+            border: 1px solid black;
+            height: 30px;
+            width: 130px;
+            border-radius: 5px;
+
+        }
+        span:hover{
+        
+            border: 2px solid black;
+        }
+        
+         
+       
+        
+    </style>
+    <header>
+    <div class="navbar">
+        <div class="nav-left">
+            <a href="#">About</a>
+            <a href="#">Store</a>
+        </div>
+         <div class="nav-right"> 
+            <a href="#">Email</a>
+            <a href="#">Images</a>
+            <i class="fa-solid fa-grip"></i>
+            <i class="fa-regular fa-user"></i>
+        </div> 
+    </div>
+    </header>
+
+    <div class="container">
+        <div class="google"></div>
+        <img src="images.png" height="300px" width="300px">
+    </div>
+    
+    <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="search" class="search-bar">
+        <i class="fa-solid fa-microphone"></i>
+        
+    </div>
+    <div class="google-search">
+        <span>Googel Search</span>
+        <span>I'm feeling Lucky</span>
+    </div>
+
+</body>
+
+</html>
